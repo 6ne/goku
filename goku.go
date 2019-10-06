@@ -1,7 +1,7 @@
 package goku
 
 import (
-	"github.com/clavinjune/goku/models"
+	"github.com/6ne/goku/models"
 	"net/http"
 )
 
