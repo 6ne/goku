@@ -22,7 +22,7 @@ func CreateResponse(statusCode int, data interface{},
 
 func BuildResponse() *Response {
 	return &Response{
-		headers: map[string]string{"content-type": "application/json"},
+		headers: map[string]string{"content-type": "application/json", "Access-Control-Allow-Origin": "*"},
 	}
 }
 
